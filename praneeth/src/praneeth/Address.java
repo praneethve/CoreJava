@@ -18,7 +18,6 @@ class StudentClass
 {
    int rollNum;
    String studentName;
-   //Creating HAS-A relationship with Address class
    Address studentAddr; 
    StudentClass(int roll, String name, Address addr){
        this.rollNum=roll;
@@ -26,8 +25,8 @@ class StudentClass
        this.studentAddr = addr;
    }
    public static void main(String args[]){
-       Address ad = new Address(55, "Agra", "UP", "India");
-       StudentClass obj = new StudentClass(123, "Chaitanya", ad);
+       Address ad = new Address(78, "hyd", "ap", "India");
+       StudentClass obj = new StudentClass(69, "narayana", ad);
        System.out.println(obj.rollNum);
        System.out.println(obj.studentName);
        System.out.println(obj.studentAddr.streetNum);
