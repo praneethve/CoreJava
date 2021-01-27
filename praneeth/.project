@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>abc</name>
+			<type>2</type>
+			<location>C:/Users/saipro &amp; pro/git/CoreJava/CoreJava/src</location>
+		</link>
+	</linkedResources>
 </projectDescription>
