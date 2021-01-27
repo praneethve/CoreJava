@@ -7,6 +7,7 @@ public class switchcaseexample {
 		      {
 			 case 1:
 			   System.out.println("Case1 ");
+				      break;
 			 case 2:
 			   System.out.println("Case2 ");
 			 case 3:
