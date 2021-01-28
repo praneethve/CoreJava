@@ -1,6 +1,5 @@
 package praneeth;
-
-public class CarClass {
+ class CarClass {
 		   String carName;
 		   int carId;
 		   CarClass(String name, int id)
