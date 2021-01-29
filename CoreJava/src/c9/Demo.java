@@ -17,6 +17,6 @@ public class Demo
    {
 	   SimpleCalculator obj = new SimpleCalculator();
        System.out.println(obj.add(50, 10));
-       System.out.println(obj.add(10, 10, 30));
+       System.out.println(obj.add(10, 20, 30));
    }
 }
