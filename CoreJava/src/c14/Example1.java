@@ -17,7 +17,7 @@ class MyException extends Exception{
 			throw new MyException("This is My error Message");
 		}
 		catch(MyException exp){
-			System.out.println("Catch Block") ;
+			System.out.println("Catch BlocK") ;
 			System.out.println(exp) ;
 		}
 	   }
