@@ -6,7 +6,7 @@ class MyException extends Exception{
 		str1=str2;
 	   }
 	   public String toString(){ 
-		return ("MyException Occurred "+str1) ;
+		return ("MyException accurred "+str1) ;
 	   }
 	}
 
