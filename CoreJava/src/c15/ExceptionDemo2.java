@@ -6,7 +6,7 @@ class ExceptionDemo2
    {
       try{
         int a[]=new int[10];
-        a[11] = 1;
+        a[11] = 100;
       }
       catch(ArrayIndexOutOfBoundsException e){
          System.out.println ("Array Index Out Of Bound");

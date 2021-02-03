@@ -9,7 +9,7 @@ class Exception2
 		System.out.println (str.length());
 	}
         catch(NullPointerException e){
-		System.out.println("Null Pointer Exception");
+		System.out.println(" Pointer Exception");
 	}
    }
 }

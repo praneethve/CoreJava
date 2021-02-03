@@ -5,7 +5,7 @@ public class ExceptionDemo4
 	   public static void main(String args[])
 	   {
 	      try{
-		 String str="Praneeth Vemulapalli";
+		 String str="Praneeth Vemulapalli ";
 		 System.out.println(str.length());;
 		 char c = str.charAt(0);
 		 c = str.charAt(40);

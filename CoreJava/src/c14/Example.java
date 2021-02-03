@@ -6,7 +6,7 @@ class MyException extends Exception{
 		str1=str2;
 	   }
 	   public String toString(){ 
-		return ("MyException accurred: "+str1) ;
+		return ("MyException accurred "+str1) ;
 	   }
 	}
 
@@ -17,7 +17,7 @@ class MyException extends Exception{
 				throw new MyException("This is My error Message");
 		}
 		catch(MyException exp){
-			System.out.println("Catch Block") ;
+			System.out.println("CatchBlock") ;
 			System.out.println(exp) ;
 		}
 	   }
