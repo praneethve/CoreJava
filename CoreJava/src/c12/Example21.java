@@ -1,5 +1,5 @@
 package c12;
-class Example2{
+class Example21{
 	   public static void main(String args[]){
 	     try{
 	         int a[]=new int[7];

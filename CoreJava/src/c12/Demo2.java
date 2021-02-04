@@ -12,7 +12,7 @@ class Example1{
 	abstract class Example3 extends Example1{
 	   abstract void display3();
 	}
-	class Demo1 extends Example3{
+	class Demo1 extends Example31{
 	   public void display3(){
 	      System.out.println("display3 method");
 	   }

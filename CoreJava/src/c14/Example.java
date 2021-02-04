@@ -1,8 +1,8 @@
 package c14;
 
-class MyException extends Exception{
+class MyException1 extends Exception{
 	   String str1;
-	   	   MyException(String str2) {
+	   	   MyException1(String str2) {
 		str1=str2;
 	   }
 	   public String toString(){ 
@@ -14,9 +14,9 @@ class MyException extends Exception{
 	   public static void main(String args[]){
 		try{
 			System.out.println("Starting of try block");
-				throw new MyException("This is My error Message");
+				throw new MyException1("This is My error Message");
 		}
-		catch(MyException exp){
+		catch(MyException1 exp){
 			System.out.println("CatchBlock") ;
 			System.out.println(exp) ;
 		}

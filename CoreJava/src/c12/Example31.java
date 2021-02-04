@@ -1,6 +1,6 @@
 package c12;
 
-class Example3{
+class Example31{
 	  public static void main(String args[]){
 	    try{
 	       System.out.println("First statement of try block");
