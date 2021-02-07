@@ -28,5 +28,45 @@ public class TreeSetExample {
          tset2.add(36);
          tset2.add(22);
          System.out.println(tset2);
+         TreeSet<Person> tset3 = new TreeSet<Person>();
+         Person p1 = new Person();
+         p1.setFirstname("praneeth");
+         p1.setLastname("vemulapalli");
+         Person p2 = new Person();
+         p2.setFirstname("Yeswanth");
+         p2.setLastname("Maram");
+         Person p3 = new Person();
+         p3.setFirstname("Krishna");
+         p3.setLastname("Kolli");
+      tset3.add(p1);
+      tset3.add(p2);
+      tset3.add(p3);
+    System.out.println(tset3);
     }
  }
+class Person implements Comparable {
+	private String firstname;
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	private String lastname;
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return firstname.compareTo(((Person)o).getFirstname());
+		
+		
+	}	
+	public String toString() {
+		return firstname+" "+lastname;  
+	}
+}
