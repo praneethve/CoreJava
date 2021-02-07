@@ -14,6 +14,7 @@ public class QueueExample1 {
       q.add("krishna");
       q.add("maniratham");
       q.add("avinash");
+      q.add("kolli");
 	    
       System.out.println("Elements in Queue:"+q);
 
