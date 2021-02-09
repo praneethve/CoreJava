@@ -21,13 +21,13 @@ public class Demo {
         
      
      System.out.print("Sorted List: ");
-     List fruits = new ArrayList();
+      List<String> fruits = new ArrayList();
      fruits.add("Orange");
      fruits.add("Banana");
      fruits.add("Apple");
      fruits.add("Guava");
      fruits.add("Grapes");
      Collections.sort(fruits);
-     for(String str: fruits) System.out.print(str+ ", ");
+     for(String str : fruits) System.out.print(str+ ", ");
   }
 }
