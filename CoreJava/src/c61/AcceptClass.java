@@ -25,7 +25,7 @@ public class AcceptClass {
        cnfe.printStackTrace();
        return;
      }
-    System.out.println("Student Name:"+o.getStuName());
+    System.out.println("Student Name :"+o.getStuName());
     System.out.println("Student Age:"+o.getStuAge());
     System.out.println("Student Roll No:"+o.getStuRollNum());
     System.out.println("Student Address:"+o.getStuAddress());

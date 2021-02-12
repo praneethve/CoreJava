@@ -7,7 +7,7 @@ public class SendClass
 {
   public static void main(String args[])
   {
-    Student obj = new Student(69, 23, "PraneethVemulapalli", "Tanuku", 6);
+    Student obj = new Student(69, 23, "PraneethVemulapalli", "Hyderbad", 6);
     try{ 
       FileOutputStream fos = new FileOutputStream("Student.ser"); 
       ObjectOutputStream oos = new ObjectOutputStream(fos);
