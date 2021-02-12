@@ -7,7 +7,7 @@ class UnboxingExample1
    }
    public static void main(String[] args) {
     	
-    	Integer inum = new Integer(100);
+    	Integer inum = new Integer(69);
     	myMethod(inum);
     }
 }
