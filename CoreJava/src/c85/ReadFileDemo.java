@@ -4,7 +4,7 @@ import java.io.*;
 public class ReadFileDemo {
    public static void main(String[] args) {         
       
-      File file = new File("D://myfile.txt");
+      File file = new File("D://newfile.txt");
       
       BufferedInputStream bis = null;
       FileInputStream  fis= null;
