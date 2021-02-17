@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class Example {
 
    public static void main(String[] args) {
-      List<String> names =Arrays.asList("Avinsh", "Krishna", "Yeswanth","Manirathnam", "Vishnu", "Praneeth");
+      List<String> names =Arrays.asList("Avinsh", "Krishna", "Yeswanth","Yeswanth","Manirathnam", "Vishnu", "Praneeth");
       Map<String, Long> map =
       names.stream().collect( Collectors.groupingBy(Function.identity(), Collectors.counting()));
       System.out.println(map);
