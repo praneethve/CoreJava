@@ -8,7 +8,7 @@ public class CreateFileDemo
    public static void main( String[] args )
    {	
       try {
-	     File file = new File("D:\\newfile.txt");
+	     File file = new File("C:\\Users\\prane\\Downloads\\newfile.txt");
 	     
              boolean fvar = file.createNewFile();
 	     if (fvar){

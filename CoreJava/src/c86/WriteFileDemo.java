@@ -10,7 +10,7 @@ public class WriteFileDemo {
       String mycontent = "This is my Data which needs" +" to be written into the file";
       try {
         
-	  file = new File("D:/myfile.txt");
+	  file = new File("C:\\Users\\prane\\Downloads/myfile.txt");
 	  fos = new FileOutputStream(file);
 
       
